@@ -1,6 +1,53 @@
+@font-face {
+    font-family: 'montserratblack';
+    src: url('../assets/Montserrat-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../assets/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'montserratsemibold';
+    src: url('../assets/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('../assets/Montserrat-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 @tailwind base;
 @tailwind components;
- @tailwind utilities;
+
+.font-regular{
+    font-family: montserratregular;
+}
+.font-black{
+    font-family: montserratbold;
+}
+
+.font-semi{
+    font-family: montserratsemibold;
+}
+
+@tailwind utilities;
 
 /* 
 @layer utilities  
